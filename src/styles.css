@@ -2,13 +2,6 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-.homepage {
-  background-image: url("/images/Croissant.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-
 .container {
   margin: 20px;
   padding: 20px;
@@ -24,11 +17,16 @@ h1 {
   font-size: 42px;
 }
 
+.homepage {
+  background-color: rgb(205,66,11,0.15);
+}
+
 .homepage p {
-  font-size: 18px;
-  line-height: 20px;
+  text-align: justify;
+    font-size: 18px;
+  line-height: 24px;
   padding: 20px 0px;
-  color: white;
+  color: black;
 }
 
 ul {
@@ -40,23 +38,34 @@ li {
   font-size: 16px;
   line-height: 19px;
 }
+
 .gallery {
-  display: block;
+  display: flex;
+  justify-content: space-around;
 }
 
 .gallery img {
-  display: flex;
-  justify-content: space-between;
+  display: block;
   border: 1px solid #dadde1;
   border-radius: 0px 25px;
 }
 
-.nav-link a {
+.nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 15px;
+}
+
+.nav a {
+  display: block;
+  margin: 15px;
+  padding: 15px;
+  background-color: chocolate;
+  border-radius: 5px;
+  color: beige;
   text-decoration: none;
 }
 
-.nav {
-  display: block;
+.contact {
+  text-align: center;
 }
